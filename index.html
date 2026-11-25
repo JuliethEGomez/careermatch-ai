@@ -1,1 +1,89 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>CareerMatch AI | Find your fit</title><link rel="stylesheet" href="style.css"></head><body><div class="wrap"><header><a class="logo" href="index.html">Career<span>Match</span> AI</a><nav><a href="index.html">Home</a><a href="about.html">How It Works</a></nav></header><section class="hero"><div><div class="tag">Your next move starts here</div><h1>Find the role that <em>fits you.</em></h1><p>Compare your skills with job descriptions, discover strengths, and identify opportunities to grow. Built for curious professionals ready for what's next.</p><a class="btn" href="#calculator">Try the Match Calculator</a> <a class="btn secondary" href="about.html">How It Works</a></div><div><video class="video" autoplay muted loop playsinline preload="auto" poster="video-poster.svg"><source src="career-video.mp4" type="video/mp4">Your browser does not support video.</video><p class="small">A glimpse of your next career opportunity.</p></div></section><section class="panel" id="calculator"><div class="tag">Interactive demo</div><h2>Job Match Calculator</h2><p>Paste a job description and list your skills to see which keywords overlap.</p><form id="matchForm"><div class="cols"><div><label for="skills">Your skills (separate with commas)</label><textarea id="skills" required placeholder="project management, strategy, Excel, sales, analytics"></textarea></div><div><label for="job">Job description</label><textarea id="job" required placeholder="Paste the job description here..."></textarea></div></div><p><button class="btn" type="submit">Calculate My Match</button></p></form><div class="result" id="result" aria-live="polite"></div></section><section class="panel"><h2>Our creative X-Factor</h2><p>Our interactive Job Match Calculator lets visitors compare their own skills with a job description and instantly see keyword overlap, making CareerMatch more than a static business showcase.</p></section><footer>© 2026 CareerMatch AI · Student project</footer></div><script src="script.js"></script><!-- CHATBOT: Paste your Chatling embed code immediately before the closing body tag on BOTH pages. --></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareerMatch AI | Find your fit</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrap">
+
+    <header>
+      <a class="logo" href="index.html">Career<span>Match</span> AI</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">How It Works</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div>
+        <div class="tag">Your next move starts here</div>
+        <h1>Find the role that <em>fits you.</em></h1>
+        <p>Compare your skills with job descriptions, discover strengths, and identify opportunities to grow. Built for curious professionals ready for what's next.</p>
+        <a class="btn" href="#calculator">Try the Match Calculator</a>
+        <a class="btn secondary" href="about.html">How It Works</a>
+      </div>
+
+      <div>
+        <video class="video" autoplay muted loop playsinline preload="auto" poster="video-poster.svg">
+          <source src="career-video.mp4" type="video/mp4">
+          Your browser does not support video.
+        </video>
+        <p class="small">A glimpse of your next career opportunity.</p>
+      </div>
+    </section>
+
+    <section class="panel" id="calculator">
+      <div class="tag">Interactive demo</div>
+      <h2>Job Match Calculator</h2>
+      <p>Paste a job description and list your skills to see which keywords overlap.</p>
+
+      <form id="matchForm">
+        <div class="cols">
+          <div>
+            <label for="skills">Your skills (separate with commas)</label>
+            <textarea id="skills" required placeholder="project management, strategy, Excel, sales, analytics"></textarea>
+          </div>
+
+          <div>
+            <label for="job">Job description</label>
+            <textarea id="job" required placeholder="Paste the job description here..."></textarea>
+          </div>
+        </div>
+
+        <p>
+          <button class="btn" type="submit">Calculate My Match</button>
+        </p>
+      </form>
+
+      <div class="result" id="result" aria-live="polite"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Our creative X-Factor</h2>
+      <p>Our interactive Job Match Calculator lets visitors compare their own skills with a job description and instantly see keyword overlap, making CareerMatch more than a static business showcase.</p>
+    </section>
+
+    <footer>© 2026 CareerMatch AI · Student project</footer>
+
+  </div>
+
+  <script src="script.js"></script>
+
+  <!-- PMG Chatbot Integration -->
+  <script>
+    window.chtlConfig = { chatbotId: "6418484826" };
+  </script>
+
+  <script async
+    data-id="6418484826"
+    id="chtl-script"
+    type="text/javascript"
+    src="https://chatling.ai/js/embed.js">
+  </script>
+
+</body>
+</html>
